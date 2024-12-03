@@ -6,19 +6,19 @@ This repository implements dynamic object detection and tracking models for vide
 
 **Models Implemented**
 
-EfficientNetV2B0 with Histogram of Oriented Gradients (HOG):
+➡️ EfficientNetV2B0 with Histogram of Oriented Gradients (HOG):
 
 Focus: Spatial anomaly detection in controlled environments like retail stores.
 
 Key Features: Lightweight, accurate for edge-based anomalies.
 
-ConvLSTM
+➡️ ConvLSTM
 
 Focus: Temporal anomaly detection by capturing sequential patterns.
 
 Key Features: Combines convolutional layers for spatial features and LSTM layers for temporal dependencies.
 
-HybridModel-1 (ResNet-50 + YOLO-v4)
+➡️ HybridModel-1 (ResNet-50 + YOLO-v4)
 
 Focus: Real-time crime detection and multi-object tracking.
 
