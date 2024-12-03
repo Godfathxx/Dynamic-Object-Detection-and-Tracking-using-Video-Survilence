@@ -43,15 +43,19 @@ This repository is part of a comparative study on hybrid models for theft detect
 **Setup and Installation**
 1.Clone the repository:
 git clone https://github.com/Godfathxx/Dynamic-Object-Detection-and-Tracking-using-Video-Survilence.git
+
 2.Install dependencies:
 pip install -r requirements.txt
+
 3.Download the dataset and place it in the data folder.
 
 **Usage**
 1.Training a Model
 python train.py --model <model_name> --dataset <path_to_dataset>
+
 2.Testing a Model
 python test.py --model <model_name> --checkpoint <path_to_checkpoint>
+
 3.Visualizing Results
 python visualize.py --results <path_to_results>
 
